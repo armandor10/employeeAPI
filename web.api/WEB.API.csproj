@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.WEB.DAL\WEB.API.DAL.csproj" />
+    <ProjectReference Include="..\WEB.API.BLL\WEB.API.BLL.csproj" />
+    <ProjectReference Include="..\WEB.API.Entities\WEB.API.Entities.csproj" />
+    <ProjectReference Include="..\WEB.API.LoggerService\WEB.API.LoggerService.csproj" />
+  </ItemGroup>
+
+</Project>

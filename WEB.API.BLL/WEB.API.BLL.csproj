@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WEB.API.Contracts\WEB.API.Contracts.csproj" />
+    <ProjectReference Include="..\WEB.API.Entities\WEB.API.Entities.csproj" />
+    <ProjectReference Include="..\WEB.API.Repository\WEB.API.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
